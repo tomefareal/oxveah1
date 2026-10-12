@@ -1,4 +1,4 @@
-function toBase64(str) {
+export function toBase64(str) {
   // version front qui gère é è à etc.
   return btoa(unescape(encodeURIComponent(str)));
 }
